@@ -8,7 +8,8 @@
   /* f : 글씨색(진한정도 상)*/
   --f-red: #F64848;
   --f-blue :#0D79DD;
-  --f-gray :#9D9D9D;
+  --f-gray :#a2a2a2;
+  --f-black:#434343;
   /* l : 배경색(진한정도 하) */
   --l-red: #FFF2F2;
   --l-blue :#E4ECF6;
@@ -17,5 +18,6 @@
 }
 
 /* wrap */
-.wrap { max-width: 1200px;}
+.wrap { max-width: 1200px; margin: 0 auto; }
+.center { margin: 0 auto;}
 
