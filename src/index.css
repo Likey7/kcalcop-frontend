@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'SDSamliphopangche_Basic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
+@font-face {
+  font-family: 'SDSamliphopangche_Outline';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} 
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+* {margin: 0; padding: 0;}
+body {min-height: 300px; font-size: 16px; line-height: 1em; font-family: "NanumSquare", sans-serif; color: #434343;}
+a {text-decoration: none;}
+img {width: 100%;}
+button {cursor: pointer; font-family: inherit;}
+ul,li {list-style: none;}

@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+/* color */
+:root {
+  /* b : 버튼색(진한정도 중) */
+  --b-red: #FF8585;
+  --b-blue :#508FCC;
+  --b-yellow : #F6DE00;
+  --b-black: #242424;
+  /* f : 글씨색(진한정도 상)*/
+  --f-red: #F64848;
+  --f-blue :#0D79DD;
+  --f-gray :#9D9D9D;
+  /* l : 배경색(진한정도 하) */
+  --l-red: #FFF2F2;
+  --l-blue :#E4ECF6;
+  --l-gray :#F5F5F5;
+  --l-yellow :#FFF48D;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* wrap */
+.wrap { max-width: 1200px;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
